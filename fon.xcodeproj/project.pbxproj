@@ -1,0 +1,375 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4527E96E25F89D8B009C6178 /* DemandesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4527E96D25F89D8B009C6178 /* DemandesView.swift */; };
+		4527E97125F89FDD009C6178 /* connexionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4527E97025F89FDD009C6178 /* connexionView.swift */; };
+		4527E9C725FA00C6009C6178 /* ListeProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4527E9C625FA00C6009C6178 /* ListeProfileView.swift */; };
+		4527EA3825FB4A7E009C6178 /* AnnonceDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4527EA3725FB4A7E009C6178 /* AnnonceDetailsView.swift */; };
+		452E41DC25FBA709005F3222 /* ProfilView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 452E41DB25FBA709005F3222 /* ProfilView.swift */; };
+		45CD87A12600E6A80075A446 /* TestBarDeNavigation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45CD87A02600E6A80075A446 /* TestBarDeNavigation.swift */; };
+		45E4B6A125F654F800472768 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 45E4B6A025F654F800472768 /* Assets.xcassets */; };
+		45E4B6A425F654F800472768 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 45E4B6A325F654F800472768 /* Preview Assets.xcassets */; };
+		45E4B6AD25F65ED100472768 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45E4B6AC25F65ED100472768 /* ProfileView.swift */; };
+		45E4B6E925F66CF100472768 /* fonApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45E4B6E825F66CF100472768 /* fonApp.swift */; };
+		45E4B6EC25F66E8800472768 /* audi.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 45E4B6EB25F66E8800472768 /* audi.jpg */; };
+		45E4B6F025F678EE00472768 /* CataloguView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45E4B6EF25F678EE00472768 /* CataloguView.swift */; };
+		45E4B6F925F76EE200472768 /* ProfileModele.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45E4B6F825F76EE200472768 /* ProfileModele.swift */; };
+		45E4B71E25F7914C00472768 /* AnnonceModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45E4B71D25F7914C00472768 /* AnnonceModel.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4527E96D25F89D8B009C6178 /* DemandesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemandesView.swift; sourceTree = "<group>"; };
+		4527E97025F89FDD009C6178 /* connexionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = connexionView.swift; sourceTree = "<group>"; };
+		4527E9C625FA00C6009C6178 /* ListeProfileView.swift */ = {isa = PBXFileReference; indentWidth = 13; lastKnownFileType = sourcecode.swift; path = ListeProfileView.swift; sourceTree = "<group>"; wrapsLines = 1; };
+		4527EA3725FB4A7E009C6178 /* AnnonceDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnnonceDetailsView.swift; sourceTree = "<group>"; };
+		452E41DB25FBA709005F3222 /* ProfilView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfilView.swift; sourceTree = "<group>"; };
+		45CD87A02600E6A80075A446 /* TestBarDeNavigation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestBarDeNavigation.swift; sourceTree = "<group>"; };
+		45E4B69925F654F700472768 /* fon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = fon.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		45E4B6A025F654F800472768 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		45E4B6A325F654F800472768 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		45E4B6A525F654F800472768 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		45E4B6AC25F65ED100472768 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		45E4B6E825F66CF100472768 /* fonApp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = fonApp.swift; sourceTree = "<group>"; };
+		45E4B6EB25F66E8800472768 /* audi.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = audi.jpg; path = ../../../Downloads/audi.jpg; sourceTree = "<group>"; };
+		45E4B6EF25F678EE00472768 /* CataloguView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CataloguView.swift; sourceTree = "<group>"; };
+		45E4B6F225F67A9F00472768 /* audi */ = {isa = PBXFileReference; lastKnownFileType = file; name = audi; path = ../../../Downloads/audi; sourceTree = "<group>"; };
+		45E4B6F825F76EE200472768 /* ProfileModele.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileModele.swift; sourceTree = "<group>"; };
+		45E4B71D25F7914C00472768 /* AnnonceModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnnonceModel.swift; sourceTree = "<group>"; };
+		45E4B73425F7CD4E00472768 /* fon copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "fon copy-Info.plist"; path = "/Users/chikaali/Desktop/fon/fon copy-Info.plist"; sourceTree = "<absolute>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		45E4B69625F654F700472768 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		45E4B69025F654F700472768 = {
+			isa = PBXGroup;
+			children = (
+				4527E9C625FA00C6009C6178 /* ListeProfileView.swift */,
+				4527E97025F89FDD009C6178 /* connexionView.swift */,
+				45CD87A02600E6A80075A446 /* TestBarDeNavigation.swift */,
+				45E4B6EF25F678EE00472768 /* CataloguView.swift */,
+				4527E96D25F89D8B009C6178 /* DemandesView.swift */,
+				452E41DB25FBA709005F3222 /* ProfilView.swift */,
+				4527EA3725FB4A7E009C6178 /* AnnonceDetailsView.swift */,
+				45E4B71D25F7914C00472768 /* AnnonceModel.swift */,
+				45E4B6F825F76EE200472768 /* ProfileModele.swift */,
+				45E4B69B25F654F700472768 /* fon */,
+				45E4B69A25F654F700472768 /* Products */,
+				45E4B73425F7CD4E00472768 /* fon copy-Info.plist */,
+			);
+			sourceTree = "<group>";
+		};
+		45E4B69A25F654F700472768 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				45E4B69925F654F700472768 /* fon.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		45E4B69B25F654F700472768 /* fon */ = {
+			isa = PBXGroup;
+			children = (
+				45E4B6E825F66CF100472768 /* fonApp.swift */,
+				45E4B6AC25F65ED100472768 /* ProfileView.swift */,
+				45E4B6EB25F66E8800472768 /* audi.jpg */,
+				45E4B6F225F67A9F00472768 /* audi */,
+				45E4B6A025F654F800472768 /* Assets.xcassets */,
+				45E4B6A525F654F800472768 /* Info.plist */,
+				45E4B6A225F654F800472768 /* Preview Content */,
+			);
+			path = fon;
+			sourceTree = "<group>";
+		};
+		45E4B6A225F654F800472768 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				45E4B6A325F654F800472768 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		45E4B69825F654F700472768 /* fon */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 45E4B6A825F654F800472768 /* Build configuration list for PBXNativeTarget "fon" */;
+			buildPhases = (
+				45E4B69525F654F700472768 /* Sources */,
+				45E4B69625F654F700472768 /* Frameworks */,
+				45E4B69725F654F700472768 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = fon;
+			productName = fon;
+			productReference = 45E4B69925F654F700472768 /* fon.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		45E4B69125F654F700472768 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					45E4B69825F654F700472768 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+				};
+			};
+			buildConfigurationList = 45E4B69425F654F700472768 /* Build configuration list for PBXProject "fon" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 45E4B69025F654F700472768;
+			productRefGroup = 45E4B69A25F654F700472768 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				45E4B69825F654F700472768 /* fon */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		45E4B69725F654F700472768 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45E4B6A425F654F800472768 /* Preview Assets.xcassets in Resources */,
+				45E4B6EC25F66E8800472768 /* audi.jpg in Resources */,
+				45E4B6A125F654F800472768 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		45E4B69525F654F700472768 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4527E97125F89FDD009C6178 /* connexionView.swift in Sources */,
+				45E4B6F025F678EE00472768 /* CataloguView.swift in Sources */,
+				4527E9C725FA00C6009C6178 /* ListeProfileView.swift in Sources */,
+				4527E96E25F89D8B009C6178 /* DemandesView.swift in Sources */,
+				45E4B71E25F7914C00472768 /* AnnonceModel.swift in Sources */,
+				45CD87A12600E6A80075A446 /* TestBarDeNavigation.swift in Sources */,
+				4527EA3825FB4A7E009C6178 /* AnnonceDetailsView.swift in Sources */,
+				452E41DC25FBA709005F3222 /* ProfilView.swift in Sources */,
+				45E4B6F925F76EE200472768 /* ProfileModele.swift in Sources */,
+				45E4B6AD25F65ED100472768 /* ProfileView.swift in Sources */,
+				45E4B6E925F66CF100472768 /* fonApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		45E4B6A625F654F800472768 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		45E4B6A725F654F800472768 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		45E4B6A925F654F800472768 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"fon/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = fon/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "solidarite-.fon";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		45E4B6AA25F654F800472768 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"fon/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = fon/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "solidarite-.fon";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		45E4B69425F654F700472768 /* Build configuration list for PBXProject "fon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				45E4B6A625F654F800472768 /* Debug */,
+				45E4B6A725F654F800472768 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		45E4B6A825F654F800472768 /* Build configuration list for PBXNativeTarget "fon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				45E4B6A925F654F800472768 /* Debug */,
+				45E4B6AA25F654F800472768 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 45E4B69125F654F700472768 /* Project object */;
+}
